@@ -14,11 +14,11 @@ public void Saca(double quantidade){
 		double limitetx = this.Saldo * juros;
 		this.Saldo = this.Saldo+limitetx;
 		System.out.println("Valor impossivel de ser sacado" + quantidade+ "porque excede o calculo de saldo + limite"  );
-		System.out.println("Valor maximo utilizando o limite disponivel para saque é" + this.Saldo );
+		System.out.println("Valor maximo utilizando o limite disponivel para saque Ã©" + this.Saldo );
 		
-		System.out.println("Qual a sua opção de parcelamento de limite, para verificar os juros [1,2] ");
+		System.out.println("Qual a sua opÃ§Ã£o de parcelamento de limite, para verificar os juros [1,2] ");
 		int op = sc.nextInt();
-		System.out.println("opção escolhia" + op);
+		System.out.println("opÃ§Ã£o escolhia" + op);
 		if(op == 1){
 			 limitetx = limitetx * 0.25;
 			 this.Saldo = this.Saldo + limitetx;
@@ -29,7 +29,7 @@ public void Saca(double quantidade){
 			 System.out.println("Valor total a ser pago "+ this.Saldo);
 		 		}
 	}
-	}*/
+	}
         
 		public void transfere(Conta destino, double valor) {
 			this.Saldo = this.Saldo - valor;
