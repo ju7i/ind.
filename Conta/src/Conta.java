@@ -8,7 +8,7 @@ public class Conta {
 	private Scanner sc;
 
 			
-/*public void Saca(double quantidade){
+public void Saca(double quantidade){
 	sc = new Scanner(System.in);
 	if (this.Saldo<quantidade) {
 		double limitetx = this.Saldo * juros;
